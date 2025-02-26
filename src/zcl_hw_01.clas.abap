@@ -16,6 +16,6 @@ CLASS zcl_hw_01 IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
-    out->write( 'Hello World' ).
+    out->write( 'Hello World 2' ).
   ENDMETHOD.
 ENDCLASS.
