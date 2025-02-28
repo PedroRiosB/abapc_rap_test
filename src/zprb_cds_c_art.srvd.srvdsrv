@@ -1,0 +1,4 @@
+@EndUserText.label: 'CDS View consuption (Service definition)'
+define service ZPRB_CDS_C_ART {
+  expose ZPRB_CDS_ART;
+}
