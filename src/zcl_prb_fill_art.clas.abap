@@ -24,7 +24,7 @@ CLASS zcl_prb_fill_art IMPLEMENTATION.
             color = 'varios'
             piezas = 12
             stock = 10
-            url = 'https://lalibreteria.mx/products/zebra-mildliner-colores-amigables?_pos=1&_sid=66bfacc7c&_ss=r'
+            url = 'https://lalibreteria.mx/cdn/shop/files/la-libreteria-midliner-colores-amigables-01_700x.jpg?v=1711595778'
         )
         (
             client = sy-mandt
@@ -34,7 +34,7 @@ CLASS zcl_prb_fill_art IMPLEMENTATION.
             color = 'Azul'
             piezas = 1
             stock = 100
-            url = 'https://lalibreteria.mx/products/agenda-2025-azul-aqua-hard-cover'
+            url = 'https://lalibreteria.mx/cdn/shop/files/la-libreteria-agenda-2025-hard-cover-azul-aqua-03_700x.jpg?v=1720633282'
         )
         (
             client = sy-mandt
@@ -44,7 +44,7 @@ CLASS zcl_prb_fill_art IMPLEMENTATION.
             color = 'Transparente'
             piezas = 2
             stock = 20
-            url = 'https://lalibreteria.mx/products/2-maiba-sacapuntas'
+            url = 'https://lalibreteria.mx/cdn/shop/products/la-libreteria-2-maiba-01_700x.jpg?v=1617157253'
         )
         (
             client = sy-mandt
@@ -54,8 +54,9 @@ CLASS zcl_prb_fill_art IMPLEMENTATION.
             color = 'Cafe'
             piezas = 2
             stock = 30
-            url = 'https://lalibreteria.mx/products/2-pack-libreta-barcelona-refill'
+            url = 'https://lalibreteria.mx/cdn/shop/products/la-libreteria-libretas-9x20-5-barcelona-02_700x.jpg?v=1648007109'
         )
+
     ).
 
     insert zprb_db_art from table @it_art.
