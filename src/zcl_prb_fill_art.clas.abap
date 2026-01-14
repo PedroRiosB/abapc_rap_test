@@ -12,7 +12,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_prb_fill_art IMPLEMENTATION.
+CLASS ZCL_PRB_FILL_ART IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
     data: it_art type STANDARD TABLE OF zprb_db_art.
     it_art = value #(
@@ -66,5 +68,4 @@ CLASS zcl_prb_fill_art IMPLEMENTATION.
         out->write( 'Error when inserting' ).
     endif.
   ENDMETHOD.
-
 ENDCLASS.
